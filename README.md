@@ -1,16 +1,17 @@
 # Sticky Tabs for Chrome
 
-Arc-style sticky tabs for regular chrome tabs.
+A small Chrome extension for Arc-style sticky tabs for regular chrome tabs.
 
-A tiny Chrome extension that keeps a tab in the sidebar when you close it: in the right tab group, at the right spot, with its initial URL. Just like in Arc.
+Keeps a tab in the sidebar when you close it: in the right tab group, at the right spot, with its initial URL. Just like in Arc.
 
-No custom sidebar. Native chrome tabs.
+No custom sidebar. Just native chrome tabs.
 
 ## What it does
 
-Mark any tab as **Sticky**. When you close it, it instantly reopens (silently, in the background) at its original position, inside its original tab group.
+Mark a tab as **Sticky**. When you close that tab, it instantly reopens (silently in the background) at its original position, inside its original tab group.
 
 - Ungrouped tabs stay ungrouped on restore.
+- Grouped tabs stay in their group.
 - Restored tabs spawn pre-discarded, so they don't eat memory until you click them.
 - The tab position is preserved.
 - The initial tab URL is restored.
@@ -24,12 +25,4 @@ You can mark a Tab as sticky in two ways:
 
 To change the Tab's initial URL:
 
-- - **Right-click on the page** → Sticky Tabs → Replace pinned URL with Current
-
-## Install (unpacked)
-
-1. Open `chrome://extensions`.
-2. Enable **Developer mode**.
-3. Click **Load unpacked** and select this folder.
-
-After editing files, hit the reload arrow on the extension card.
+- **Right-click on the page** → Sticky Tabs → Replace pinned URL with Current
