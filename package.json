@@ -1,0 +1,16 @@
+{
+  "name": "chrome-sticky-tabs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "build": "rm -rf dist && mkdir -p dist && zip -r dist/extension.zip manifest.json background.js icons"
+  },
+  "devDependencies": {
+    "oxfmt": "^0.50.0",
+    "oxlint": "^1.65.0"
+  }
+}

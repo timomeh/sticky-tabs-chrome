@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Sticky Tabs",
+  "version": "1.0",
+  "description": "Keeps Sticky Tabs when you try to close them.",
+  "permissions": ["tabs", "tabGroups", "storage", "contextMenus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Sticky Tabs",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["unicorn", "oxc"],
+  "categories": {
+    "correctness": "error"
+  },
+  "rules": {
+    "no-unused-vars": [
+      "warn",
+      { "argsIgnorePattern": "^_|^(changeInfo|tab|tabId|removeInfo)$" }
+    ]
+  },
+  "env": {
+    "builtin": true,
+    "browser": true,
+    "webextensions": true,
+    "serviceworker": true
+  }
+}
