@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "tsdown",
-    "bundle": "rm -rf dist && pnpm build && cd dist && zip -r ../sticky-tabs.zip .",
+    "bundle": "rm -rf dist && pnpm build && cd dist && zip -r ../sticky-tabs-extension.zip .",
     "dev": "tsdown --watch",
     "typecheck": "tsc --noEmit",
     "lint": "oxlint",

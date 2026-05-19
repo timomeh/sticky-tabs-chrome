@@ -1,7 +1,5 @@
 # Sticky Tabs for Chrome
 
-🏗️ Not yet stable and can be buggy
-
 [View and Install in Chrome Web Store](https://chromewebstore.google.com/detail/sticky-tabs/jgedjheikgjbgihecdbicmhmonegdoch)
 
 A small Chrome extension for Arc-style sticky tabs for regular chrome tabs.
@@ -30,3 +28,9 @@ You can mark a Tab as sticky in two ways:
 To change the Tab's initial URL:
 
 - **Right-click on the page** → Sticky Tabs → Replace pinned URL with Current
+
+## Known Issues and Limitations
+
+- If the sticky tab is the only tab in the window and you close it, the window closes.
+- Closing and re-opening a tab group won't preserve stickiness.
+- If you rename a tab group on another device, it won't be able to restore the sticky state.
