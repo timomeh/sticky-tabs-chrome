@@ -1,5 +1,7 @@
 # Sticky Tabs for Chrome
 
+🏗️ Not yet stable and can be buggy
+
 [View and Install in Chrome Web Store](https://chromewebstore.google.com/detail/sticky-tabs/jgedjheikgjbgihecdbicmhmonegdoch)
 
 A small Chrome extension for Arc-style sticky tabs for regular chrome tabs.
