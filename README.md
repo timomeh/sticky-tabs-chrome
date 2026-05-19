@@ -1,5 +1,7 @@
 # Sticky Tabs for Chrome
 
+[View and Install in Chrome Web Store](https://chromewebstore.google.com/detail/sticky-tabs/jgedjheikgjbgihecdbicmhmonegdoch)
+
 A small Chrome extension for Arc-style sticky tabs for regular chrome tabs.
 
 Keeps a tab in the sidebar when you close it: in the right tab group, at the right spot, with its initial URL. Just like in Arc.
