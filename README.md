@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="icons/icon-active128.png" alt="Sticky Tabs" width="128" height="128" />
+</p>
+
 # Sticky Tabs for Chrome
 
 [View and Install in Chrome Web Store](https://chromewebstore.google.com/detail/sticky-tabs/jgedjheikgjbgihecdbicmhmonegdoch)
