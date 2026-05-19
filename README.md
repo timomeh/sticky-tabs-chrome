@@ -35,6 +35,9 @@ To change the Tab's initial URL:
 
 ## Known Issues and Limitations
 
+Here are some known limitations that I might be able to fix, maybe not. Let's see.
+
+- To persist stickiness when you close/reopen Chrome, quit Chrome (cmd-q) instead of closing the window. Regular window close will also close all tabs, so stickiness of tabs won't persist.
 - If the sticky tab is the only tab in the window and you close it, the window closes.
-- Closing and re-opening a tab group won't preserve stickiness.
+- Closing and re-opening a tab-group won't preserve stickiness.
 - If you rename a tab group on another device, it won't be able to restore the sticky state.
