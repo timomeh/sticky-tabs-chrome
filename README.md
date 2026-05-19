@@ -26,7 +26,7 @@ Mark a tab as **Sticky**. When you close that tab, it instantly reopens (silentl
 
 You can mark a Tab as sticky in two ways:
 
-- **Toolbar icon:** click the extension's toolbar icon to toggle sticky for the current tab. A green `PIN` badge appears when a tab is sticky.
+- **Toolbar icon:** click the extension's toolbar icon to toggle sticky for the current tab.
 - **Right-click on the page** → Sticky Tabs → Sticky
 
 To change the Tab's initial URL:
