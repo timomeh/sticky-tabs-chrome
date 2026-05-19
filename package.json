@@ -3,14 +3,21 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "build": "tsdown",
+    "bundle": "rm -rf dist && pnpm build && cd dist && zip -r ../sticky-tabs.zip .",
+    "dev": "tsdown --watch",
+    "typecheck": "tsc --noEmit",
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
     "fmt": "oxfmt",
-    "fmt:check": "oxfmt --check",
-    "build": "rm -rf dist && mkdir -p dist && zip -r dist/extension.zip manifest.json background.js icons"
+    "fmt:check": "oxfmt --check"
   },
   "devDependencies": {
+    "@types/chrome": "^0.1.42",
     "oxfmt": "^0.50.0",
-    "oxlint": "^1.65.0"
+    "oxlint": "^1.65.0",
+    "tsdown": "^0.22.0",
+    "typescript": "^6.0.3",
+    "unrun": "^0.3.0"
   }
 }
